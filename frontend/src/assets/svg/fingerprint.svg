@@ -1,0 +1,16 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4398_19619)">
+<path d="M37.5 45.834C37.5 42.5188 38.817 39.3394 41.1612 36.9951C43.5054 34.6509 46.6848 33.334 50 33.334C53.3152 33.334 56.4946 34.6509 58.8388 36.9951C61.183 39.3394 62.5 42.5188 62.5 45.834C62.5 52.7382 65.05 58.6757 66.6667 62.5006" stroke="#7C7C7C" style="stroke:#7C7C7C;stroke:color(display-p3 0.4847 0.4847 0.4847);stroke-opacity:1;" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 45.834V53.1257C49.9958 57.7507 52.7542 62.3173 54.1667 66.6673" stroke="#7C7C7C" style="stroke:#7C7C7C;stroke:color(display-p3 0.4847 0.4847 0.4847);stroke-opacity:1;" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.5 59.375C37.7833 61.7917 38.9917 64.3167 39.5833 66.6667" stroke="#7C7C7C" style="stroke:#7C7C7C;stroke:color(display-p3 0.4847 0.4847 0.4847);stroke-opacity:1;" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.6667 33.3327V24.9993C16.6667 22.7892 17.5447 20.6696 19.1075 19.1068C20.6703 17.544 22.7899 16.666 25.0001 16.666H33.3334" stroke="#7C7C7C" style="stroke:#7C7C7C;stroke:color(display-p3 0.4847 0.4847 0.4847);stroke-opacity:1;" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.6667 66.666V74.9993C16.6667 77.2095 17.5447 79.3291 19.1075 80.8919C20.6703 82.4547 22.7899 83.3327 25.0001 83.3327H33.3334" stroke="#7C7C7C" style="stroke:#7C7C7C;stroke:color(display-p3 0.4847 0.4847 0.4847);stroke-opacity:1;" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66.6665 16.666H74.9998C77.21 16.666 79.3296 17.544 80.8924 19.1068C82.4552 20.6696 83.3332 22.7892 83.3332 24.9993V33.3327" stroke="#7C7C7C" style="stroke:#7C7C7C;stroke:color(display-p3 0.4847 0.4847 0.4847);stroke-opacity:1;" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66.6665 83.3327H74.9998C77.21 83.3327 79.3296 82.4547 80.8924 80.8919C82.4552 79.3291 83.3332 77.2095 83.3332 74.9993V66.666" stroke="#7C7C7C" style="stroke:#7C7C7C;stroke:color(display-p3 0.4847 0.4847 0.4847);stroke-opacity:1;" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_4398_19619">
+<rect width="100" height="100" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

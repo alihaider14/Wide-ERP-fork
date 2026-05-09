@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+	--color-blue: #0b3a7d;
+	--color-semi-black: #001129;
+	--color-borderColor: #dedede;
+	--color-grey: #7c7c7c;
+	--color-grey-100: #fafafa;
+	--color-grey-dark: #a2a2a2;
+	--font-poppins: "Poppins", sans-serif;
+	--color-light-blue: #f3fbff;
+	--color-secondary-grey: #f5f5f5;
+	--color-light-purple: #8712cb0d;
+	--color-light-red: #e011110d;
+	--color-green: #179c50;
+	--color-parrot: #1ac929;
+	--color-light-green: #edfff5;
+	--color-purple: #7427ac;
+	--color-secondary-purple: #f8f6ff;
+	--color-red: #950a0a;
+	--color-red-dark: #e01111;
+	--color-secondary-red: #fff3f3;
+	--color-shadow: #0000000d;
+	--color-green-500: #38a541;
+	--color-green-50: #edfff5;
+	--color-gray-500: #7c7c7c;
+	--color-gray-50: #fafafa;
+	--color-primary-50: #f1f7ff;
+	--color-disabled: #7c9cc7;
+	--color-editBg: #F5F5F5;
+	--color-deleteBg: #FFF3F3;
+	--color-primaryDarkBlue: #0B3A7D;
+	--color-deepBlueBlack : #0B1324;
+	--color-deepNavy: #0B1736;
+	--color-blueBg: #F1F7FF;
+	--color-offWhite: #E6E6E6;
+	--color-green: #38A541;
+	--color-red: #E01111;
+	--color-hoverBg: #e3edfc;
+}
+
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+:root {
+	--background: #ffffff;
+	--foreground: #1a1a1a;
+	--card: #ffffff;
+	--card-foreground: #252525;
+	--popover: #ffffff;
+	--popover-foreground: #252525;
+	--primary: #0b3a7d;
+	--primary-50: #f1f7ff;
+	--primary-foreground: #fafafa;
+	--secondary: #f3f3f3;
+	--secondary-foreground: #a3a3a3;
+	--muted: #f5f5f5;
+	--muted-foreground: #a3a3a3;
+	--accent: #f8f8f8;
+	--accent-foreground: #333333;
+	--destructive: #e01111;
+	--destructive-foreground: #e01111;
+	--border: #e5e7eb;
+	--input: #a3a3a3;
+	--ring: #b3b3b3;
+
+	--chart-1: #e45756;
+	--chart-2: #4b9fea;
+	--chart-3: #3b82f6;
+	--chart-4: #facc15;
+	--chart-5: #f97316;
+
+	--radius: 0.625rem;
+	--sidebar: #ffffff;
+	--sidebar-foreground: #1a1a1a;
+	--sidebar-primary: #252525;
+	--sidebar-primary-foreground: #fafafa;
+	--sidebar-accent: #f8f8f8;
+	--sidebar-accent-foreground: #333333;
+	--sidebar-border: #e5e7eb;
+	--sidebar-ring: #b3b3b3;
+}
+
+.dark {
+	--background: #252525;
+	--foreground: #fafafa;
+	--card: #252525;
+	--card-foreground: #fafafa;
+	--popover: #252525;
+	--popover-foreground: #fafafa;
+	--primary: #fafafa;
+	--primary-foreground: #333333;
+	--secondary: #3f3f3f;
+	--secondary-foreground: #fafafa;
+	--muted: #3f3f3f;
+	--muted-foreground: #a3a3a3;
+	--accent: #3f3f3f;
+	--accent-foreground: #fafafa;
+	--destructive: #a63c2f;
+	--destructive-foreground: #f87171;
+	--border: #3f3f3f;
+	--input: #3f3f3f;
+	--ring: #6b6b6b;
+
+	--chart-1: #6d28d9;
+	--chart-2: #22d3ee;
+	--chart-3: #f97316;
+	--chart-4: #9333ea;
+	--chart-5: #f59e0b;
+
+	--sidebar: #333333;
+	--sidebar-foreground: #fafafa;
+	--sidebar-primary: #6d28d9;
+	--sidebar-primary-foreground: #fafafa;
+	--sidebar-accent: #3f3f3f;
+	--sidebar-accent-foreground: #fafafa;
+	--sidebar-border: #3f3f3f;
+	--sidebar-ring: #6b6b6b;
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-card: var(--card);
+	--color-card-foreground: var(--card-foreground);
+	--color-popover: var(--popover);
+	--color-popover-foreground: var(--popover-foreground);
+	--color-primary: var(--primary);
+	--color-primary-50: var(--primary-50);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-secondary: var(--secondary);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-muted: var(--muted);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-accent: var(--accent);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-destructive: var(--destructive);
+	--color-destructive-foreground: var(--destructive-foreground);
+	--color-border: var(--border);
+	--color-input: var(--input);
+	--color-ring: var(--ring);
+	--color-chart-1: var(--chart-1);
+	--color-chart-2: var(--chart-2);
+	--color-chart-3: var(--chart-3);
+	--color-chart-4: var(--chart-4);
+	--color-chart-5: var(--chart-5);
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+	--color-sidebar: var(--sidebar);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar-primary: var(--sidebar-primary);
+	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-accent: var(--sidebar-accent);
+	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-border: var(--sidebar-border);
+	--color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+
+	body {
+		@apply bg-background text-foreground;
+	}
+
+	input[type="number"]::-webkit-outer-spin-button,
+	input[type="number"]::-webkit-inner-spin-button,
+	input[type="number"] {
+		-webkit-appearance: none;
+		margin: 0;
+		-moz-appearance: textfield !important;
+	}
+
+	::-webkit-scrollbar {
+		@apply w-[2px] h-[2px] !overflow-y-auto;
+	}
+
+	::-webkit-scrollbar-thumb {
+		@apply bg-primary rounded-[2px];
+	}
+
+	::-webkit-scrollbar-track {
+		@apply bg-gray-200 rounded-[2px];
+	}
+}
+
+/* Sidebar menu text styles */
+.sidebar-menu-text {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0;
+	vertical-align: middle;
+}
+
+.sidebar-menu-text-active {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0;
+	vertical-align: middle;
+}
+
+.custom-input::placeholder {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0;
+	color: #7c7c7c;
+	vertical-align: middle;
+}
+
+.custom-input {
+	padding: 7.5px 20px;
+	box-shadow: none;
+}
+
+.pdf-page-break {
+	page-break-before: always !important;
+	break-before: always !important;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+	page-break-after: avoid !important;
+	break-after: avoid !important;
+}
+
+@layer base {
+	img {
+		display: initial;
+	}
+}
