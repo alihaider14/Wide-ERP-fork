@@ -1,0 +1,15 @@
+export const SUCCESS_MESSAGES = {
+	signin: "Login successful.",
+	signup: "Your account has been created successfully.",
+	productAdded: "Product added successfully.",
+	productUpdated: "Product updated successfully.",
+	productDeleted: "Product deleted successfully.",
+	productQtyAdded: "Products quantity added successfully.",
+	productQtyUpdated: "Products quantity updated successfully.",
+	productQtyDeleted: "Products quantity deleted successfully.",
+	stockZoneCreated: (name: string) => `${name} has been created successfully.`,
+	stockZoneUpdated: (name: string) => `${name} has been updated successfully.`,
+	employeeAdded: "Employee added successfully.",
+	employeeUpdated: "Employee updated successfully.",
+	employeeDeleted: "Employee deleted successfully.",
+};
